@@ -52,6 +52,11 @@ quote-style = "double"
 managed = true
 dev-dependencies = []
 
+[tool.rye.scripts]
+unittest = "python -m unittest"
+cover = {chain = ["coverage run --source . -m unittest discover", "coverage html -i"]}
+copy_to_run = "./copy_to_run.vbs"
+
 [tool.hatch.metadata]
 allow-direct-references = true
 
