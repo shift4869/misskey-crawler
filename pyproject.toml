@@ -6,16 +6,16 @@ authors = [
     { name = "shift" }
 ]
 dependencies = [
-    "coverage>=7.5.3",
-    "freezegun>=1.5.1",
-    "httpx>=0.27.0",
-    "isort>=5.13.2",
+    "coverage>=7.13.4",
+    "freezegun>=1.5.5",
+    "httpx>=0.28.1",
+    "isort>=7.0.0",
     "misskey-py>=4.1.0",
-    "mock>=5.1.0",
-    "orjson>=3.10.3",
-    "pycodestyle>=2.11.1",
-    "ruff>=0.4.8",
-    "sqlalchemy>=2.0.30",
+    "mock>=5.2.0",
+    "orjson>=3.11.7",
+    "pycodestyle>=2.14.0",
+    "ruff>=0.15.0",
+    "sqlalchemy>=2.0.46",
 ]
 readme = "README.md"
 requires-python = ">= 3.12"
